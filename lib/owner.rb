@@ -31,7 +31,9 @@ class Owner
   def walk_dogs
     dogs = @pets[:dogs]
     dogs.collect do |dog|
-      dog.
+      dog.mood = "happy"
+    end
+  end 
   
   
   def buy_cat(name_cat)
