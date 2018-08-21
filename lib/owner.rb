@@ -7,6 +7,7 @@ class Owner
   def initialize(owner_name)
     @name = owner_name
     @pets = {:fishes =>[], :cats => [], :dogs => []}
+    @@all << self
   end
   
   def self.all
