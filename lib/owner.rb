@@ -28,6 +28,10 @@ class Owner
     @@all.size
   end 
   
+  def walk_dogs
+    dogs = @pets[:dogs]
+    dogs.collect do |dog|
+      dog.
   
   
   def buy_cat(name_cat)
