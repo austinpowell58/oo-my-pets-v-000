@@ -14,7 +14,7 @@ class Owner
     @@all = []
   end 
   
-  def self.all
+  def self.count
     @@all.size
   end 
   
