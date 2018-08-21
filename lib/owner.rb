@@ -51,6 +51,7 @@ class Owner
   
   def 
     fish = @pets[:fishes]
+    cats = @pets[:cats]
   
   
   def buy_cat(name_cat)
