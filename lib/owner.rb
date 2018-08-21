@@ -10,7 +10,7 @@ class Owner
     @@all << self
   end
   
-  def self.reset
+  def self.reset_all
     @@all = []
   end 
   
