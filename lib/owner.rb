@@ -9,6 +9,10 @@ class Owner
     @@all << self
   end
   
+  def self.count
+    @@all.size
+  end 
+  
   def buy_cat(name_cat)
     new_cat = Cat.new(name_cat)
     @pets[cats] << new_cat
