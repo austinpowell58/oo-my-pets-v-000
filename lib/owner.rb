@@ -57,10 +57,10 @@ class Owner
       fish.mood = "nervous"
     end 
     cats.collect do |cat|
-      cat.mood = "happy"
+      cat.mood = "nervous"
     end
      dogs.collect do |dog|
-      dog.mood = "happy"
+      dog.mood = "nervous"
     end
     
   end 
