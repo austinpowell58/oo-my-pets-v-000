@@ -10,6 +10,10 @@ class Owner
     @@all << self
   end
   
+  def self.reset
+    @@all = []
+  end 
+  
   def self.all
     @@all.length
   end 
