@@ -8,6 +8,7 @@ class Owner
     @name = owner_name
     @pets = {:fishes =>[], :cats => [], :dogs => []}
     @@all << self
+    @species = "human"
   end
   
   def self.all
