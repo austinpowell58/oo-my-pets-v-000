@@ -53,6 +53,9 @@ class Owner
     fish = @pets[:fishes]
     cats = @pets[:cats]
     dogs = @pets[:dogs]
+    fish.collect do |fish|
+      fish.mood = "nervous"
+    end 
     
   end 
   
