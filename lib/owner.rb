@@ -59,6 +59,9 @@ class Owner
     cats.collect do |cat|
       cat.mood = "happy"
     end
+     dogs.collect do |dog|
+      dog.mood = "happy"
+    end
     
   end 
   
