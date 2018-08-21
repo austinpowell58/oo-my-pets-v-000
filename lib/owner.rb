@@ -9,7 +9,7 @@ class Owner
     @@all << self
   end
   
-  def self.count
+  def self.all
     @@all.length
   end 
   
