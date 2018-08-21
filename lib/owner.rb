@@ -35,6 +35,13 @@ class Owner
     end
   end 
   
+  def play_with_cats
+    cats = @pets[:cats]
+    cats.collect do |cat|
+      cat.mood = "happy"
+    end
+  end 
+  
   
   def buy_cat(name_cat)
     new_cat = Cat.new(name_cat)
